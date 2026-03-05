@@ -9,6 +9,7 @@ connectDB();
 const app = express();
 app.use(cors({
     //origin: "http://localhost:5173",
+    origin: "https://jewelrystore-1-tivq.onrender.com",
     credentials: true
 }));
 app.use(express.json());
